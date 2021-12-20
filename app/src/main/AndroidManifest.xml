@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uchpraktika0102">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UchPraktika0102">
+        <activity
+            android:name=".AllItog_Res"
+            android:exported="true" />
+        <activity
+            android:name=".FuncInd_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".KredoInd_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".KoefSkibin_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".ZhiznInd_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".Sosudisto_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".Vinoslivost_Vvdo"
+            android:exported="true" />
+        <activity
+            android:name=".Results"
+            android:exported="true" />
+        <activity
+            android:name=".DvigatActiv_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".IMT_Res"
+            android:exported="true" />
+        <activity
+            android:name=".IMT_Vvod"
+            android:exported="true" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

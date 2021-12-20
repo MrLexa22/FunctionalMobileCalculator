@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UchPraktika0102</string>
+    <string name="name_at_first_pag">Онлайн-калькулятор функционального состояния и массы тела</string>
+    <string name="first_pag__kolvo">8 показателей</string>
+    <string-array name="polNames">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string-array name="vozrastnames">
+        <item>16-28 лет</item>
+        <item>29-34 года</item>
+        <item>35-45 лет</item>
+        <item>45-50 лет</item>
+        <item>50+ лет</item>
+    </string-array>
+    <string name="about_imt">Представляет собой значение по оценке степени соответствия массы тела человека и роста (длины тела), в результате определения индекса можно косвенно судить о том, что масса тела находится в пределах нормы или недостаточна или наоборот избыточная масса тела</string>
+    <string name="about_dvig">Представляет собой область устойчивых состояний, расположенную между минимальным и максимальным уровнем двигательной активности, и, обеспечивающей тренирующий эффект.</string>
+</resources>

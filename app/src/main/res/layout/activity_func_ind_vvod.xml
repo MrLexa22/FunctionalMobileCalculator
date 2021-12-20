@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuncInd_Vvod">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="С помощью этого теста оценивают функциональные возможности системы кровообращения"
+        android:textStyle="bold"
+        android:id="@+id/text_of_the_app"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/blue_for_colors" />
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ЧСС – частота сердечных сокращений (уд/мин)."
+        android:textSize="17sp"
+        android:id="@+id/textvess"
+        app:layout_constraintTop_toBottomOf="@+id/text_of_the_app"
+        android:textColor="@color/blue_for_colors"/>
+    <EditText
+        android:id="@+id/chss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textvess"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" САД систолическое артериальное давление"
+        android:textSize="18sp"
+        android:id="@+id/textvesss"
+        android:textColor="@color/blue_for_colors"
+        app:layout_constraintTop_toBottomOf="@+id/chss"/>
+    <EditText
+        android:id="@+id/sad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textvesss"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ДАД (нижнее) – диастолическое артериальное давление (мм рт.ст.)"
+        android:textSize="18sp"
+        android:id="@+id/textves"
+        android:textColor="@color/blue_for_colors"
+        app:layout_constraintTop_toBottomOf="@+id/sad"/>
+    <EditText
+        android:id="@+id/dad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textves"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Возраст"
+        android:textSize="18sp"
+        android:id="@+id/textvesse"
+        android:textColor="@color/blue_for_colors"
+        app:layout_constraintTop_toBottomOf="@+id/dad"/>
+    <EditText
+        android:id="@+id/vozrast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textvesse"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Масса тела (кг.)"
+        android:textSize="18sp"
+        android:id="@+id/textvessee"
+        android:textColor="@color/blue_for_colors"
+        app:layout_constraintTop_toBottomOf="@+id/vozrast"/>
+    <EditText
+        android:id="@+id/ves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textvessee"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Рост (м.)"
+        android:textSize="18sp"
+        android:id="@+id/textvesseee"
+        android:textColor="@color/blue_for_colors"
+        app:layout_constraintTop_toBottomOf="@+id/ves"/>
+    <EditText
+        android:id="@+id/rost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textvesseee"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:textColor="@color/blue_for_colors"/>
+
+    <Button
+        android:id="@+id/buttomEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_for_colors"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/rost"
+        android:text="Продолжить"
+        />
+    <LinearLayout
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttomEnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/blue_for_colors"
+                    app:itemIconTint="@android:color/white"
+                    app:itemTextColor="@android:color/white"
+                    app:menu="@menu/bottom_menu" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

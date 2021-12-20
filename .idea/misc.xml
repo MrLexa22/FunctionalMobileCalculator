@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/drawable/ic_algorithm.xml" value="0.23657407407407408" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/drawable/spinner_item.xml" value="0.23657407407407408" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_all_itog_res.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_dvigat_activ_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_func_ind_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_imt_res.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_imt_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_koef_skibin_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_kredo_ind_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_results.xml" value="0.2" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_sosudisto_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_vinoslivost_vvdo.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/layout/activity_zhizn_ind_vvod.xml" value="0.1875" />
+        <entry key="..\:/Users/lesha/AndroidStudioProjects/UchPraktika0102/app/src/main/res/menu/bottom_menu.xml" value="0.2222222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

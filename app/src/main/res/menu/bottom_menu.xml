@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Дом"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/indexes"
+        android:title="Индексы"
+        android:icon="@drawable/calc"/>
+    <item
+        android:id="@+id/itog"
+        android:title="История"
+        android:icon="@drawable/completed"/>
+</menu>

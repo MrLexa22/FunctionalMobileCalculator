@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_at_first_pag"
+            android:textStyle="bold"
+            android:id="@+id/text_of_the_app"
+            android:textSize="39sp"
+            android:textAlignment="center"
+            android:textColor="@color/blue_for_colors" />
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_of_the_app"
+            android:id="@+id/ololo">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/blue_for_colors"
+                android:text="@string/first_pag__kolvo"
+                android:id="@+id/textView6" />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gerb"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            app:layout_constraintTop_toTopOf="@id/text_of_the_app"
+            android:id="@+id/ololo2">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/heart"
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/blue_for_colors"
+                android:textSize="40sp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:src="@drawable/airlogo"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@id/text_of_the_app"
+            android:id="@+id/ololo3">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/blue_for_colors"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            app:layout_constraintTop_toTopOf="@id/text_of_the_app"
+            android:id="@+id/ololo4">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="BMI"
+                android:textColor="#d97352"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/buttonToMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue_for_colors"
+
+                android:textColor="@color/white"
+                android:text="Продолжить"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
